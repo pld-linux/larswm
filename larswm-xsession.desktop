@@ -7,5 +7,6 @@ Name=LarsWM
 Name[sv]=Lars WM
 Comment=The Lars Window Manager, based on 9WM, supports tiled windows
 Comment[nl]=De Lars Window Manager, gebaseerd op 9WM. Biedt ondersteuning voor getegelde vensters
-Comment[sr]=„Lars Window Manager“, заснован на 9WM-у, подржава прозоре
+Comment[sr]=Lars Window Manager, заснован на 9WM-у, подржава прозоре
 Comment[sv]=Lars fönsterhanterare, baserad på 9WM, med stöd för fönster sida vid sida
+# vi: encoding=utf-8
