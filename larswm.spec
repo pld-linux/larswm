@@ -22,8 +22,8 @@ see http://www.fnurt.net/larswm for more information.
 Zarz±dca okien dla X oparty na 9wm. Umo¿liwia korzystanie z
 wirtualnych desktopów, okienek "tiled" i "untiled", skrótów
 klawiszowych i wiele wiêcej przy niewielkim zapotrzebowaniu na zasoby
-systemowe. Wiêcej informacji znajduke siê pod adresem
-http://www.fnurt.net/larswm/ .
+systemowe. Wiêcej informacji znajduje siê pod adresem
+http://www.fnurt.net/larswm/.
 
 %prep
 %setup -q
