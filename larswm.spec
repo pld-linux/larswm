@@ -1,7 +1,7 @@
 Summary:	Lars Tiling Window Manager
 Summary(pl):	Menad¿er okien larswm
 Name:		larswm
-Version:	7.0.15
+Version:	7.0.18
 Release:	1
 License:	GPL
 Group:		X11/Window Managers
