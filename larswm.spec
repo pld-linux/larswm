@@ -1,3 +1,5 @@
+# TODO
+#  - not working out of the box, user needs to setup ~/.larswmrc from docdir
 Summary:	Lars Tiling Window Manager
 Summary(pl):	Zarz±dca okien larswm
 Name:		larswm
