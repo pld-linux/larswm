@@ -7,6 +7,7 @@ License:	GPL
 Group:		X11/Window Managers
 Source0:	http://www.fnurt.net/larswm/%{name}-%{version}.tar.gz
 # Source0-md5:	063327de72f979e2e6e00dc8caa6fd7b
+Source1:        %{name}-xsession.desktop
 URL:		http://www.fnurt.net/larswm/
 BuildRequires:	XFree86-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
@@ -38,6 +39,9 @@ rm -rf $RPM_BUILD_ROOT
 %{__make} install install.man \
 	DESTDIR=$RPM_BUILD_ROOT
 
+install -d $RPM_BUILD_ROOT%{_datadir}/xsessions
+install %{SOURCE1} $RPM_BUILD_ROOT%{_datadir}/xsessions/%{name}.desktop
+
 %clean
 rm -rf $RPM_BUILD_ROOT
 
@@ -45,4 +49,5 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %doc README README.9wm ChangeLog sample.* *.ms
 %attr(0755,root,root) %{_bindir}/*
+%{_datadir}/xsessions/%{name}.desktop
 %{_mandir}/man1/*
