@@ -1,5 +1,5 @@
 Summary:	Lars Tiling Window Manager
-Summary(pl):	Menad¿er okien larswm
+Summary(pl):	Zarz±dca okien larswm
 Name:		larswm
 Version:	7.2.6
 Release:	1
@@ -20,10 +20,11 @@ shortcuts and more, while using very little system resources. Please
 see http://www.fnurt.net/larswm for more information.
 
 %description -l pl
-Menad¿er okien dla X oparty na 9wm. Umo¿liwia u¿ycie wirtualnych
-desktopów, "tiled and untiled" okienek, skrótów klawiszowych i wiele
-wiêcej przy niewielkim zapotrzebowaniu na zasoby systemowe. Zobacz
-http://www.fnurt.net/larswm , ¿eby dowiedzieæ siê wiêcej.
+Zarz±dca okien dla X oparty na 9wm. Umo¿liwia korzystanie z
+wirtualnych desktopów, "tiled and untiled" okienek, skrótów
+klawiszowych i wiele wiêcej przy niewielkim zapotrzebowaniu na zasoby
+systemowe. Wiêcej informacji znajduke siê pod adresem
+http://www.fnurt.net/larswm/ .
 
 %prep
 %setup -q
