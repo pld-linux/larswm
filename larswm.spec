@@ -1,12 +1,12 @@
 Summary:	Lars Tiling Window Manager
 Summary(pl):	Zarz±dca okien larswm
 Name:		larswm
-Version:	7.3.1
+Version:	7.3.2
 Release:	1
 License:	GPL
 Group:		X11/Window Managers
 Source0:	http://home.earthlink.net/~lab1701/larswm/%{name}-%{version}.tar.gz
-# Source0-md5:	b9c3098caa4323d64034752ec0d84997
+# Source0-md5:	6a73cb90bd013e91fc6483a12cfdb50b
 Source1:        %{name}-xsession.desktop
 URL:		http://home.earthlink.net/~lab1701/larswm/
 BuildRequires:	XFree86-devel
