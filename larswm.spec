@@ -6,6 +6,7 @@ Release:	1
 License:	GPL
 Group:		X11/Window Managers
 Source0:	http://www.fnurt.net/larswm/%{name}-%{version}.tar.gz
+# Source0-md5:	063327de72f979e2e6e00dc8caa6fd7b
 URL:		http://www.fnurt.net/larswm/
 BuildRequires:	XFree86-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
