@@ -1,7 +1,7 @@
 Summary:	Lars Tiling Window Manager
 Summary(pl):	Menad¿er okien larswm
 Name:		larswm
-Version:	7.1.4
+Version:	7.2.6
 Release:	1
 License:	GPL
 Group:		X11/Window Managers
@@ -30,7 +30,7 @@ http://www.fnurt.net/larswm , ¿eby dowiedzieæ siê wiêcej.
 
 %build
 xmkmf -a
-%{__make} CFLAGS="%{rpmcflags}" LDFLAGS="%{rpmldflags}"
+%{__make} CFLAGS="%{rpmcflags}" LDFLAGS="%{rpmldflags}" CC="%{__cc}"
 
 %install
 rm -rf $RPM_BUILD_ROOT
