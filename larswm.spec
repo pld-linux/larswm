@@ -1,12 +1,12 @@
 Summary:	Lars Tiling Window Manager
 Summary(pl):	Menad¿er okien larswm
 Name:		larswm
-Version:	7.0.13
+Version:	7.0.15
 Release:	1
 License:	GPL
 Group:		X11/Window Managers
-URL:		http://www.fnurt.net/larswm
 Source0:	http://www.fnurt.net/larswm/%{name}-%{version}.tar.gz
+URL:		http://www.fnurt.net/larswm/
 BuildRequires:	XFree86-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -25,9 +25,6 @@ desktopów, "tiled and untiled" okienek, skrótów klawiszowych i wiele
 wiêcej przy niewielkim zapotrzebowaniu na zasoby systemowe. Zobacz
 http://www.fnurt.net/larswm , ¿eby dowiedzieæ siê wiêcej.
 
-%define		_prefix		/usr/X11R6
-%define		_mandir		%{_prefix}/man
-
 %prep
 %setup -q
 
@@ -37,16 +34,15 @@ xmkmf -a
 
 %install
 rm -rf $RPM_BUILD_ROOT
-%{__make} DESTDIR=$RPM_BUILD_ROOT install install.man
 
-gzip -9nf README README.9wm ChangeLog sample.* *.ms
-
+%{__make} install install.man \
+	DESTDIR=$RPM_BUILD_ROOT
 
 %clean
 rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc	*.gz
-%attr(0755,root,root)	%{_bindir}/*
+%doc README README.9wm ChangeLog sample.* *.ms
+%attr(0755,root,root) %{_bindir}/*
 %{_mandir}/man1/*
