@@ -10,8 +10,6 @@ URL:		http://www.fnurt.net/larswm/
 BuildRequires:	XFree86-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
-%define		_prefix		/usr/X11R6
-%define		_mandir		%{_prefix}/man
 
 %description
 Tiling window manager for X, based on David Hogan's 9wm. It provides
