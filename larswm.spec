@@ -1,7 +1,7 @@
 # TODO
 #  - not working out of the box, user needs to setup ~/.larswmrc from docdir
 Summary:	Lars Tiling Window Manager
-Summary(pl):	Zarz±dca okien larswm
+Summary(pl.UTF-8):   ZarzÄ…dca okien larswm
 Name:		larswm
 Version:	7.5.3
 Release:	1
@@ -20,11 +20,11 @@ virtual desktops, support for tiled and untiled windows, keyboard
 shortcuts and more, while using very little system resources. Please
 see http://www.fnurt.net/larswm/ for more information.
 
-%description -l pl
-Zarz±dca okien dla X oparty na 9wm. Umo¿liwia korzystanie z
-wirtualnych desktopów, okienek "tiled" i "untiled", skrótów
-klawiszowych i wiele wiêcej przy niewielkim zapotrzebowaniu na zasoby
-systemowe. Wiêcej informacji znajduje siê pod adresem
+%description -l pl.UTF-8
+ZarzÄ…dca okien dla X oparty na 9wm. UmoÅ¼liwia korzystanie z
+wirtualnych desktopÃ³w, okienek "tiled" i "untiled", skrÃ³tÃ³w
+klawiszowych i wiele wiÄ™cej przy niewielkim zapotrzebowaniu na zasoby
+systemowe. WiÄ™cej informacji znajduje siÄ™ pod adresem
 <http://www.fnurt.net/larswm/>.
 
 %prep
