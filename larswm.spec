@@ -1,7 +1,7 @@
 # TODO
 #  - not working out of the box, user needs to setup ~/.larswmrc from docdir
 Summary:	Lars Tiling Window Manager
-Summary(pl.UTF-8):   Zarządca okien larswm
+Summary(pl.UTF-8):	Zarządca okien larswm
 Name:		larswm
 Version:	7.5.3
 Release:	1
